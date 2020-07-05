@@ -4,3 +4,8 @@ docker logs realworld-docker-api
 docker-compose up --build
 docker exec -it realworld-docker-api sh
 docker network ls
+
+docker-compose up -d run demon 
+docker images ls
+#delete Garbish 
+docker system prune 
